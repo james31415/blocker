@@ -1,6 +1,11 @@
 # blocker
 Command line option to automate blocking twitter users
 
+# Usage
+blocker.py SCREEN_NAME [CURSOR]
+  SCREEN_NAME - Screen name of user to block
+  CURSOR - This number permits restarting the block process if stopped. The cursor is printed periodically when received from the pagination function.
+
 # TODO
 * Block users that like a particular tweet
 
